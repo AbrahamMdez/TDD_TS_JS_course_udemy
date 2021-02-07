@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        //Carpeta de salida donde compilará codigo. Tambien la añadimos a node_modules porque no queremos que entre en los commits GIT
+        "outDir": "./dist/",
+        //Esto nos permite usar funciones modernas de este año 
+        "target": "es2019",
+        //A la hora de requerir archivos de otras carpetas, usamos IMPORT en lugar de REQUIRE. Esto nos dará esa funcionalidad
+        "module": "CommonJS",
+        //Nos permitirá hacer todo lo de arriba
+        "allowJs": true
+    }
+}
