@@ -1,47 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1612892461831" clover="3.2.0">
-  <project timestamp="1612892461831" name="All files">
-    <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="39" coveredelements="39" complexity="0" loc="38" ncloc="38" packages="1" files="1" classes="1"/>
-    <file name="registerVehicle.ts" path="C:\Users\nench\Escritorio\Abraham\TDD-CURSO\Clase-01\src\controllers\registerVehicle.ts">
-      <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="8" count="4" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="11" count="4" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
-      <line num="20" count="4" type="stmt"/>
-      <line num="21" count="4" type="stmt"/>
-      <line num="22" count="4" type="stmt"/>
-      <line num="23" count="4" type="stmt"/>
-      <line num="24" count="4" type="stmt"/>
-      <line num="25" count="4" type="stmt"/>
-      <line num="26" count="4" type="stmt"/>
-      <line num="27" count="4" type="stmt"/>
-      <line num="28" count="4" type="stmt"/>
-      <line num="29" count="4" type="stmt"/>
-      <line num="30" count="4" type="stmt"/>
-      <line num="31" count="4" type="stmt"/>
-      <line num="32" count="4" type="stmt"/>
-      <line num="33" count="4" type="stmt"/>
-      <line num="34" count="4" type="stmt"/>
-      <line num="35" count="4" type="stmt"/>
-      <line num="36" count="4" type="stmt"/>
-      <line num="37" count="4" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-    </file>
+<coverage generated="1612977038663" clover="3.2.0">
+  <project timestamp="1612977038663" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="18" coveredelements="18" complexity="0" loc="16" ncloc="16" packages="2" files="2" classes="2"/>
+    <package name="errors">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="invalidArg.ts" path="C:\Users\nench\Escritorio\Abraham\TDD-CURSO\Clase-01\src\errors\invalidArg.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="protocols">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="protocolsHttps.ts" path="C:\Users\nench\Escritorio\Abraham\TDD-CURSO\Clase-01\src\protocols\protocolsHttps.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
