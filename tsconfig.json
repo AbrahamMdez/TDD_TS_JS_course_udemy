@@ -7,6 +7,7 @@
         //A la hora de requerir archivos de otras carpetas, usamos IMPORT en lugar de REQUIRE. Esto nos dará esa funcionalidad
         "module": "CommonJS",
         //Nos permitirá hacer todo lo de arriba
+        "esModuleInterop": true,
         "allowJs": true
     }
 }

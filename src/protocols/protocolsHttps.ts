@@ -7,5 +7,5 @@ export class UrlLogin {
       throw new InvalidArguments(url)
     }
     return new URL(url)
-  }
+  } 
 }
