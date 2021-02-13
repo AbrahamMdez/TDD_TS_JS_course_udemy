@@ -30,7 +30,7 @@ export class ContractModel {
 
 //AQUI EXTENDEMOS LA CLASE PARA PODER AÑADIRLE MAS DATOS, COMO VEMOS CREAMOS CLASE CONTRACTPRIME, QUE EXTIENDE DE CONTRACTMODEL
 export class ContractPrime extends ContractModel {
-    mothlyDiscount(): number {
+    getMothlyDiscount(): number {
         return this.contract.monthlyCost * 0.10
     }
 }
